@@ -1,0 +1,17 @@
+.dashboard{
+    padding: 2rem;
+    width: 80%;
+    margin-inline: auto;
+
+    .row{
+        display: flex;
+        
+        .project{
+            flex: 1;
+        }
+
+        .notification{
+            flex: 1;
+        }
+    }
+}

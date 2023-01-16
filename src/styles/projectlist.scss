@@ -1,0 +1,24 @@
+.ProjectList{
+
+    .card{
+        padding: 1rem;
+
+        .card__content{
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            .card__title{
+                font-size: 2rem;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+
+            .card__date{
+                color: gray;
+            }
+        }
+    }
+}

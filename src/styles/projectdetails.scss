@@ -1,0 +1,37 @@
+.projectDetails{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 1.5rem;
+
+    .card{
+        width: 50%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: .5rem;
+
+        .card__content{
+            padding: 1rem;
+
+            .project__title{
+                font-size: 1.5rem;
+            }
+
+            p{
+                margin-top: .5rem;
+            }
+        }
+
+        .card__action{
+            border-top: 1px solid rgb(220, 220, 220);
+            padding: 1rem;
+
+            .user{
+                font-size: 1.1rem;
+            }
+
+            .date{
+                margin-top: .5rem;
+                color: gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.navbar{
+    width: 100%;
+    background: rgb(110, 110, 110);
+
+    .container{
+        width: 80%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+
+        .brand-logo{
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .links{
+            gap: 1rem;
+            display: flex;
+        }
+    }
+}
