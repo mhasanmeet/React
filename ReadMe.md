@@ -1,3 +1,3 @@
-## React Redux Firebase
+## React
 
 
